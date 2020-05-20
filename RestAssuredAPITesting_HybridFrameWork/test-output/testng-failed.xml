@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [restassuredtestsuit]">
+  <listeners>
+    <listener class-name="com.projectname.utilities.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="restassuredtest(failed)">
+    <classes>
+      <class name="com.projectname.testcases.TC001_GETUSER_LIST">
+        <methods>
+          <include name="getAllList"/>
+          <include name="CheckResponseTime"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.projectname.testcases.TC001_GETUSER_LIST -->
+    </classes>
+  </test> <!-- restassuredtest(failed) -->
+</suite> <!-- Failed suite [restassuredtestsuit] -->
